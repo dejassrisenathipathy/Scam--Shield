@@ -9,3 +9,6 @@
   725  history | grep -i "export_llm\|llama32"
   739  cp cmake-out-android/examples/models/llama/llama_main ~/llama_export/llama32_1b_8da4w.pte ~/llama32_1b/original/tokenizer.model $D/for_samrithi/
   929  history | grep -i -E "export_llm|export_llama|8da4w" > soc/llama_export_command.txt
+  956  adb push llama32_1b_8da4w.pte /data/local/tmp/llama/
+ 1008  history | grep -i -E "export_llm|export_llama|8da4w" > soc/llama_export_command.txt
+ 1010  history | grep -i -E "export_llm|export_llama|8da4w" > soc/llama_export_command.txt
