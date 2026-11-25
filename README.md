@@ -5,7 +5,7 @@ On-device SMS scam and phishing detection for Indian users. It runs fully offlin
 Bharat AI-SoC Challenge 2026 (Arm) · Cybersecurity & Digital Safety: on-device threat, phishing and scam detection · Team from PSG iTech: Deju (ML), Samrithi (SoC), Ashica (Android)
 
 - App: [ScamShield-v1.0-arm64.apk](https://github.com/[YOURNAME]/scam-shield/releases/tag/v1.0)
-- Demo video: [link]
+- Demo video: (https://youtu.be/F1M7qwkSGqo?si=WgIHjS3xDFWYkBnt)
 - Technical report: (https://1drv.ms/w/c/c66c71a0fbcd3e5d/IQChMQ3C4Y-BRYnG___411_CAbkpBRqSZ6eJF_OnjZCiQgU?e=pGNope)
 
 ## How it works
