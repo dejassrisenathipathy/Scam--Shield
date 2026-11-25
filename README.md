@@ -27,7 +27,6 @@ Bharat AI-SoC Challenge 2026 (Arm) · Cybersecurity & Digital Safety: on-device 
 | Detector memory | about 5-6 MiB |
 | Llama 3.2 1B, S24 FE, 4 fast-core threads | 0.8 s to first word, 47 tokens/s, 2.7 s per explanation, 903 MiB |
 | Llama 3.2 1B, A71, 2 big-core threads | 3.1 s to first word, 14.1 tokens/s, about 9.4 s per explanation |
-| Battery, Llama only on flagged (Run A) vs on every message (Run B) | [ ] mAh per message vs [ ] mAh per message |
 | Model sizes | tiny int8 31.8 KB, deep int8 187.3 KB, Llama 821 MB |
 
 The 90.9% is measured honestly: no message used to test a model was used to train it.
