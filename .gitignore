@@ -1,0 +1,44 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data: public datasets are downloaded by setup scripts; real SMS are private
+data/*
+!data/README.md
+*.csv
+!soc/*.csv
+real_*
+*_errors.csv
+
+# Large or licensed model files
+llama*.pte
+*.pte.zip
+tokenizer.model
+*.bin
+*.safetensors
+models/models_*/
+
+# Android build output and local settings
+.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+captures/
+.cxx/
+*.apk
+*.aab
+
+# Secrets
+*.jks
+*.keystore
+.env
+*.token
+github_token*
+
+# OS files
+.DS_Store
+Thumbs.db
