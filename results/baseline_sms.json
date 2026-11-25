@@ -1,0 +1,15 @@
+{
+  "model": "tfidf_char_lr",
+  "test_set": "public",
+  "accuracy": 0.9932,
+  "precision": 0.9989,
+  "recall": 0.9867,
+  "f1": 0.9928,
+  "fpr": 0.001,
+  "confusion": {
+    "tn": 1011,
+    "fp": 1,
+    "fn": 12,
+    "tp": 892
+  }
+}

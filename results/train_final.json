@@ -1,0 +1,64 @@
+[
+  {
+    "file": "sms_tiny_fp32.pte",
+    "size_kb": 58.1,
+    "params": 13473,
+    "best_epoch_val_f1": 0.9927,
+    "max_diff_vs_pytorch": 4.023313522338867e-07,
+    "max_diff_vs_fp32": 4.023313522338867e-07,
+    "xnnpack_delegate_blocks": 3,
+    "ops_outside_xnnpack": {
+      "alloc": 4,
+      "embedding.out": 1,
+      "amax.out": 1,
+      "cat.out": 1,
+      "squeeze_copy.dims_out": 1
+    }
+  },
+  {
+    "file": "sms_tiny_int8.pte",
+    "size_kb": 31.6,
+    "params": 13473,
+    "best_epoch_val_f1": 0.9927,
+    "max_diff_vs_pytorch": 5.960464477539063e-08,
+    "max_diff_vs_fp32": 0.01915079355239868,
+    "xnnpack_delegate_blocks": 4,
+    "ops_outside_xnnpack": {
+      "alloc": 4,
+      "embedding.out": 1,
+      "amax.out": 1,
+      "cat.out": 1,
+      "squeeze_copy.dims_out": 1
+    }
+  },
+  {
+    "file": "sms_deep_fp32.pte",
+    "size_kb": 611.3,
+    "params": 154177,
+    "best_epoch_val_f1": 0.9971,
+    "max_diff_vs_pytorch": 4.172325134277344e-07,
+    "max_diff_vs_fp32": 4.172325134277344e-07,
+    "xnnpack_delegate_blocks": 3,
+    "ops_outside_xnnpack": {
+      "alloc": 5,
+      "embedding.out": 1,
+      "amax.out": 3,
+      "squeeze_copy.dims_out": 1
+    }
+  },
+  {
+    "file": "sms_deep_int8.pte",
+    "size_kb": 187.0,
+    "params": 154177,
+    "best_epoch_val_f1": 0.9971,
+    "max_diff_vs_pytorch": 5.960464477539063e-08,
+    "max_diff_vs_fp32": 0.006308339536190033,
+    "xnnpack_delegate_blocks": 3,
+    "ops_outside_xnnpack": {
+      "alloc": 5,
+      "embedding.out": 1,
+      "amax.out": 3,
+      "squeeze_copy.dims_out": 1
+    }
+  }
+]

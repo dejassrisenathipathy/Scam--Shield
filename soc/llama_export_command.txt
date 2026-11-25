@@ -1,0 +1,11 @@
+  491    qmode: 8da4w
+  501    output_name: llama32_1b_8da4w.pte
+  509  python -m executorch.extension.llm.export.export_llm --config llama32_1b.yaml
+  513  python -m executorch.extension.llm.export.export_llm --config llama32_1b.yaml
+  516  cp ~/llama_export/llama32_1b_8da4w.pte ~/llama32_1b/original/tokenizer.model /mnt/c/Users/$(cmd.exe /c echo %USERNAME% 2>/dev/null | tr -d '\r')/Downloads/llama_for_app/
+  714  find . -iname "llama_main" -o -iname "llama32_1b_8da4w.pte" -o -iname "tokenizer.model"
+  716  ls -lh models/llama32_1b_8da4w.pte 2>/dev/null
+  721  find . -iname "llama_main" -o -iname "llama32_1b_8da4w.pte" -o -iname "tokenizer.model" 2>/dev/null
+  725  history | grep -i "export_llm\|llama32"
+  739  cp cmake-out-android/examples/models/llama/llama_main ~/llama_export/llama32_1b_8da4w.pte ~/llama32_1b/original/tokenizer.model $D/for_samrithi/
+  929  history | grep -i -E "export_llm|export_llama|8da4w" > soc/llama_export_command.txt

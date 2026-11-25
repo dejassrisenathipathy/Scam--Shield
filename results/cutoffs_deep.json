@@ -1,0 +1,62 @@
+{
+  "model": "deep",
+  "targets": {
+    "max_fa_at_scam": 0.03,
+    "min_recall_at_suspicious": 0.92
+  },
+  "app_cutoffs": {
+    "suspicious": 0.395,
+    "scam": 0.919
+  },
+  "fold_cutoffs": [
+    [
+      0.389,
+      0.919
+    ],
+    [
+      0.401,
+      0.919
+    ],
+    [
+      0.395,
+      0.907
+    ],
+    [
+      0.414,
+      0.919
+    ],
+    [
+      0.287,
+      0.907
+    ]
+  ],
+  "honest_table": {
+    "Safe": {
+      "Real scam": 18,
+      "Genuine": 211
+    },
+    "Suspicious": {
+      "Real scam": 37,
+      "Genuine": 16
+    },
+    "Scam": {
+      "Real scam": 173,
+      "Genuine": 8
+    }
+  },
+  "warned": {
+    "scams_caught": 0.9211,
+    "false_alarm_rate": 0.1021,
+    "precision": 0.8974
+  },
+  "marked_scam": {
+    "scams_caught": 0.7588,
+    "false_alarm_rate": 0.034,
+    "precision": 0.9558
+  },
+  "model_alone_0.5": {
+    "scams_caught": 0.8772,
+    "false_alarm_rate": 0.0766,
+    "precision": 0.9174
+  }
+}

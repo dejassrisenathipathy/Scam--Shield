@@ -1,0 +1,38 @@
+{
+  "tiny": {
+    "fold_thresholds": {
+      "accuracy": 0.8985,
+      "recall": 0.8991,
+      "precision": 0.8952,
+      "false_alarm_rate": 0.1021,
+      "false_alarms": 24,
+      "missed_scams": 23
+    },
+    "threshold_0.5": {
+      "accuracy": 0.8985,
+      "recall": 0.8904,
+      "precision": 0.9022,
+      "false_alarm_rate": 0.0936,
+      "false_alarms": 22,
+      "missed_scams": 25
+    }
+  },
+  "deep": {
+    "fold_thresholds": {
+      "accuracy": 0.9028,
+      "recall": 0.8947,
+      "precision": 0.9067,
+      "false_alarm_rate": 0.0894,
+      "false_alarms": 21,
+      "missed_scams": 24
+    },
+    "threshold_0.5": {
+      "accuracy": 0.9006,
+      "recall": 0.8772,
+      "precision": 0.9174,
+      "false_alarm_rate": 0.0766,
+      "false_alarms": 18,
+      "missed_scams": 28
+    }
+  }
+}
