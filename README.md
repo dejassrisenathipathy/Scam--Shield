@@ -6,7 +6,7 @@ Bharat AI-SoC Challenge 2026 (Arm) · Cybersecurity & Digital Safety: on-device 
 
 - App: [ScamShield-v1.0-arm64.apk](https://github.com/[YOURNAME]/scam-shield/releases/tag/v1.0)
 - Demo video: [link]
-- Technical report: [docs/Technical_Report.pdf](docs/Technical_Report.pdf)
+- Technical report: (https://1drv.ms/w/c/c66c71a0fbcd3e5d/IQChMQ3C4Y-BRYnG___411_CAbkpBRqSZ6eJF_OnjZCiQgU?e=pGNope)
 
 ## How it works
 
